@@ -158,6 +158,22 @@ p {
         padding-right: 5%;
     }
 
+    h2 {
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    table, ul, p {
+        font-size: 0.7rem;
+    }
+
+    .asterisk {
+        font-size: 0.6rem;
+    }
+
     nav {
         display: flex;
         position: fixed;
