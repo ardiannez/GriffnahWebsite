@@ -3,7 +3,14 @@
 <html lang="de">
 
 <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Armata">
+    <style>
+        body {
+            font-family: "Armata", sans-serif;
+        }
+    </style>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Griffnah Boulderhalle | Kurse</title>
     <link rel="icon" type="image/x-icon" href="favicon.png">
 </head>
@@ -17,13 +24,15 @@
             <a href="index.html">Homepage</a>
             <a href="preise.html">Eintrittspreise</a>
             <a href="kurse.html">Kurse</a>
-            <a href="kontakt.html">Kontakt</a>
         </nav>
     </header>
 
     <main>
-
-        <section>
+        <section class="hero_section">
+            <img src="girffnahthing.avif" alt="Hero Image">
+        </section>
+        <div class="section_holder">
+            <section class="card">
             <h2>Kurse</h2>
             <table>
                 <tbody>
@@ -46,13 +55,15 @@
                 </tbody>
             </table>
         </section>
-        
-        <section>
+        <section class="card">
             <h3>Willst du zuerst sehen, ob es dir passt?</h3>
             <p>Siehe unsere Eintrittspreise an</p>
             <button onclick="document.location='preise.html'">Eintrittspreise</button>
         </section>
 
+        </div>
+        
+        
     </main>
 
 </body>
